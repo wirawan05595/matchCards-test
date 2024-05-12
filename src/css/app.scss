@@ -1,0 +1,175 @@
+// app global css in SCSS form
+
+body{
+  color: #fff;
+}
+
+
+.brx{
+    border: 5px solid red;
+}
+
+.f4w{
+    font-size: 4vw;
+}
+
+.f2w{
+    font-size: 2vw;
+}
+
+.mainGamemode{
+  height: 100vh;
+  width: 100vw;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 60% 20%;
+  overflow-x: hidden;
+}
+
+.mainGamePlay{
+  height: 100vh;
+  display:grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
+}
+
+.bg-btn-outside{
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  padding: 1px;
+  border-radius: 50%;
+  box-shadow:  1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bg-btn{
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #966e3c;
+  color: white;
+  box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.bg-btn-onClick{
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #966e3c;
+  color: white;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5), inset -2px -2px 2px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.gridMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.cardBackContent{
+  position: relative;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cardBackImg{
+  height: fit-content;
+  width: fit-content;
+  padding: 3px;
+}
+.selected{
+  height: fit-content;
+  width: fit-content;
+  border: 3px solid #fff;
+  border-radius: 4px;
+}
+
+.backgroundDiv{
+  border-radius: 4px;
+}
+
+.q-checkbox__svg{
+  background-color: white;
+  color: gray;
+}
+
+
+.q-checkbox__bg{
+  position: absolute !important;
+  top:-6px !important;
+  height: 10vw !important;
+  width: 10vw !important;
+  box-shadow: none !important;
+}
+
+.q-checkbox{
+  margin: 0 !important;
+  padding: 0 !important;
+
+  height: 10vw !important;
+  width: 10vw !important;
+  box-shadow: none !important;
+}
+
+body.desktop .q-checkbox:not(.disabled) .q-checkbox__inner:before{
+  background: transparent !important;
+}
+
+.q-checkbox__bg:hover{
+  box-shadow: none !important;
+}
+
+.setingBottom{
+  position: fixed;
+  background: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+}
+.q-slider__label{
+  top: px !important;
+}
+
+.q-slider__track{
+  height: 20px !important;
+  border-radius: 99px;
+  background-color: #fff;
+  box-shadow: inset 2px 12px 3px -9px rgba(203, 203, 203, 1)
+}
+.q-slider__thumb-shape{
+  height: 40px !important;
+  top:-10px;
+  left: -10px;
+}
+
+.q-radio__check{
+  color: gray;
+  box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.q-radio__inner--truthy{
+  color: #fff;
+}
+
+.bg-radio{
+  background: #dedad5;
+  border-radius: 50%;
+}
+
+.q-radio__inner{
+  color: #fff;
+}
+
+.grid3X3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.grid4X4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+
